@@ -1,4 +1,7 @@
+@import url('public/fonts/OxygenMono-Regular.ttf');
+
 body {
+  font-family: 'Oxygen Mono', monospace;
   background-color: black;
   margin: 0;
   padding: 0;
