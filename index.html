@@ -19,17 +19,33 @@
 
 <body>
   <main class="container">
-    <section id="animals">
-      <div class="category"></div>
-      <button id="new-cat" class="btn btn-primary outlined">Category (+)</button>
-    </section>
-    <section id="kitchen"></section>
-    <section id="bathroom"></section>
-    <section id="mainarea"></section>
-    <section id="monthly"></section>
-    <button id="new-sec" class="btn btn-primary outlined">Section (+)</button>
+    <form class="row g-3" novalidate>
+
+      <section id="animals">
+        <div class="category"></div>
+      </section>
+      <section id="kitchen"></section>
+      <section id="bathroom"></section>
+      <section id="mainarea"></section>
+      <section id="monthly"></section>
+  
+      <!-- TODO: Should these be in the navbar instead? -->
+      <section class="col">
+        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+        <button id="new-cat" class="btn btn-primary outlined">Category (+)</button>
+        <button id="new-sec" class="btn btn-primary outlined">Section (+)</button>
+      </section>
+
+    </form>
+
+    <!-- TODO: Remove this once the styling has been scaffolded for avatars -->
+    <div class="col">
+      <img class="avatar" src="public/assets/avatar1.jpeg">
+    </div>
   </main>
   <footer></footer>
+
+  <!-- Tooltips - Details what each task involves as a reminder -->
 
   <sript src="public/lib/bootstrap.min.js"></sript>
   <script type="module" src="public/scripts/main.js"></script>
