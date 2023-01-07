@@ -12,17 +12,22 @@ body {
   padding: 0;
 }
 
+#new-cat, #new-sec {
+  margin: 3px;
+  width: 20vw; /* n% ViewportWidth */
+}
+
+#avatar-list {
+  display: flex;
+  flex-direction: column;
+}
+
 /* use as class to avoid having to override bootstrap with "!important" */
 .outlined {
   border: 2px solid white;
 }
 .outlined:hover {
   border: 4px solid white;
-}
-
-#new-cat, #new-sec {
-  margin: 3px;
-  width: 20vw; /* n% ViewportWidth */
 }
 
 .avatar {

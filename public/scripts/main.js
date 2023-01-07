@@ -9,6 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
   */
 
   // Just for scaffolding so I dont have to hardcode that shizz
-  const avatarImage = document.createElement();
-  avatarImage.setAttribute('class', 'avatar');
+  const avatarCount = 12;
+  const indexStart = 1; // not zero-indexed in other words
+  
+  for (let aNum = indexStart; aNum <= avatarCount; aNum++) {
+    const avatarImage = document.createElement('img');
+    avatarImage.src = `public/assets/avatar${aNum}.jpeg`;
+    avatarImage.setAttribute('class', 'avatar');
+    document.getElementById('avatar-list').appendChild(avatarImage);
+  }
 });
