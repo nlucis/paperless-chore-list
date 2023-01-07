@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "cp-b-grid-src": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./public/lib",
+    "cp-b-grid-map": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css.map ./public/lib",
+    "cp-b-boot-src": "cp ./node_modules/bootstrap/dist/js/bootstrap.min.js ./public/lib",
+    "cp-b-boot-map": "cp ./node_modules/bootstrap/dist/js/bootstrap.min.js.map ./public/lib",
+    "cp-styles": "npm run cp-b-grid-src && npm run cp-b-grid-map && npm run cp-b-boot-src && npm run cp-b-boot-map"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "require": "^2.4.20",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
+  }
+}
