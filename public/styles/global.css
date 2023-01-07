@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+/* use as class to avoid having to override bootstrap with "!important" */
+.outlined {
+  border: 2px solid white;
+}
+
 #new-cat, #new-sec {
   margin: 12px;
   width: 20vw; /* n% ViewportWidth */
