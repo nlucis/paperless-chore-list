@@ -7,8 +7,9 @@ body {
   padding: 0;
 }
 
-#new-cat {
+#new-cat, #new-sec {
   margin: 12px;
+  width: 20vw; /* n% ViewportWidth */
 }
 
 .category  {
