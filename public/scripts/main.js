@@ -30,9 +30,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // * -- User Name --
   const usernameLabel = document.createElement('h5');
+  usernameLabel.textContent = config.name;
+
+  const vDivider = document.createElement('div');
+  vDivider.className = 'vr';
+  vDivider.style = 'width: 3px; background-color: white; opacity: 100%;';
+
+  const dateTime = document.createElement('span');
+  dateTime.textContent = dt_formatted;
 
   document.getElementById('name-badge').append(
     userAvatar, 
-    usernameLabel
+    usernameLabel,
+    vDivider,
+    dateTime
   );
 });
