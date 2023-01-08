@@ -1,0 +1,144 @@
+{
+  "categories": [
+    {
+      "name": "animals",
+      "tasks": [
+        {
+          "taskName": "Feed Dog",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Feed Minka in the morning once per day."
+        },
+        {
+          "taskName": "Walk Dog",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Walk Minka once in the morning and at least once in the evening."
+        },
+        {
+          "taskName": "Feed Chickens",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Open up the chicken coop and make sure their feed trough and water is full."
+        },
+        {
+          "taskName": "Put Chickens To Bed",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "At dusk after the chickens have returned to the coop, close and lock the doors to ensure predators can't get in."
+        }
+      ]
+    },
+    {
+      "name": "kitchen",
+      "tasks": [
+        {
+          "taskName": "Clean & Disinfect Counters",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Clear coffee grounds and foodstuffs from counters then spray and wipe them clean."
+        },
+        {
+          "taskName": "Clean Floors",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Sweep or vaccuum the tile floors of the kitchen area."
+        },
+        {
+          "taskName": "Put Away Dishes",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "If clean dishes are present in the dishwasher, put them away and load it with dirty ones (if any)."
+        },
+        {
+          "taskName": "Run The Dishwasher",
+          "frequency": "CONDITIONAL",
+          "assigneeName": "",
+          "tooltip": "If the Dishwasher is full of dishes, add soap and run it. Do this before 8:30PM ."
+        },
+        {
+          "taskName": "Clean Stove Surfaces",
+          "frequency": "CONDITIONAL",
+          "assigneeName": "",
+          "tooltip": "If the stove has a build up of grease, oils or other foodstuffs on it's surfaces spray disinfect and wipe them clean."
+        }
+      ]
+    },
+    {
+      "name": "bathroom",
+      "tasks": [
+        {
+          "taskName": "Sweep Floor",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Self-explanatory; Sweep the bathroom floor after shaking off area rugs."
+        },
+        {
+          "taskName": "Clean Toilet",
+          "frequency": "BI-WEEKLY",
+          "assigneeName": "",
+          "tooltip": "Apply toilet bowl cleaner, let sit for ~10 minutes, then scrub clear with brush and flush."
+        },
+        {
+          "taskName": "Clean Tub",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Spray down interior of tub with suitable cleaner to remove grime build up as well as prevent fungal/mold build-up."
+        },
+        {
+          "taskName": "Dryer Lint-Trap",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Check the lint screen in the dryer to ensure it is completely clear; this should also be done after each load."
+        },
+        {
+          "taskName": "Mop Floor",
+          "frequency": "WEEKLY",
+          "assigneeName": "",
+          "tooltip": "Self-explanatory; Sweep the bathroom floor after shaking off the area rugs, and then mop clean."
+        }
+      ]
+    },
+    {
+      "name": "livingroom",
+      "tasks": [
+        {
+          "taskName": "Sweep or Vaccuum Floor",
+          "frequency": "DAILY",
+          "assigneeName": "",
+          "tooltip": "Self-explanatory; Sweep tor vaccuum the floor of the main living area, including hallways and carpet."
+        },
+        {
+          "taskName": "Dust Common Surfaces",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Self-explanatory; Dust all exposed flat surfaces of the common areas."
+        },
+        {
+          "taskName": "Purge Refrigerator",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Check the refrigerator and freezer for any old and expired food; compost it. Take out everything fresh and disinfect the interior and exterior."
+        },
+        {
+          "taskName": "Mop Floor",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Self-explanatory; After sweeping over vaccuuming the floor, mop it to remove residues and disinfect it."
+        },
+        {
+          "taskName": "Clean & Vaccuum Car",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Clean out any trash from the car, clean the windows of any smears and streaks, and vaccuum out any dirt and debris."
+        },
+        {
+          "taskName": "Transfer Compost & Sanitize Containers",
+          "frequency": "MONTHLY",
+          "assigneeName": "",
+          "tooltip": "Transfer indoor compost from the kitchen to the outdoor drums & disinfect their containers to prevent infestations."
+        }
+      ]
+    }
+  ]
+}
