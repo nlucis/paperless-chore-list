@@ -20,8 +20,8 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #AC65AC;
-  margin-top: 3vh;
+  background-color: #AC22FF;
+  margin-top: 6vh;
   border: 3px solid white;
   height: 5vh;
 }
