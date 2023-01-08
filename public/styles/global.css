@@ -15,9 +15,15 @@ body {
   width: 20vw; /* n% ViewportWidth */
 }
 
-#avatar-list {
+#name-badge {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #AC65AC;
+  margin-top: 3vh;
+  border: 3px solid white;
+  height: 5vh;
 }
 
 /* use as class to avoid having to override bootstrap with "!important" */
@@ -30,11 +36,10 @@ body {
 
 .avatar {
   width: 9vw;
-  height: 100%;
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 50%;
-  margin: 1em;
   box-shadow: 0px 0px 0px 3px white;
+  margin-left: -3vw;
 }
 
 .category  {
