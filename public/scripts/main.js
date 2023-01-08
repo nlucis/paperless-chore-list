@@ -7,8 +7,19 @@ document.addEventListener('DOMContentLoaded', () => {
    *  to share those values among other users when connected.
   */
   const persistence = window.localStorage;
+
+  const userPrefs = {
+    name: 'Awwjay',
+    avatarID: 'avatar1'
+  };
+
+  persistence.setItem('userPrefs', userPrefs);
   persistence.setItem('avatar', 'avatar1');
   persistence.setItem('name', 'Awwjay');
+
+  console.log(userPrefs);
+  userPrefs.name = "Unga Bunga Man"
+  console.log(userPrefs);
 
   const avatarURI = `public/assets/${persistence.getItem('avatar')}.jpeg`;
 
